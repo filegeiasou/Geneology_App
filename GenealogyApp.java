@@ -37,6 +37,7 @@ public class GenealogyApp {
             } else if (parts[1].equals("mother")) {
                 child.mother = parent;
             }
+            //if csv has relations husband
             // else if (parts[1].equals("husband")) {
             //     child.spouse = parent;
             // }
@@ -75,6 +76,7 @@ public class GenealogyApp {
                 return "Aunt";
             }
         }
+        //if csv has relations husband
         // if (p1.spouse != null) {
         //     if (p1.spouse.equals(p2)) {
         //         return p2.gender.equals("men") ? "Husband" : "Husband";
@@ -132,6 +134,7 @@ public class GenealogyApp {
                 return "Niece";
             }
         }
+        //if csv has relations husband
         // if (p1.spouse != null) {
         //     if (p1.spouse.equals(p2)) {
         //         return p2.gender.equals("men") ? "Husband" : "Husband";
