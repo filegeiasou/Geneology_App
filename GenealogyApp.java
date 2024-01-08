@@ -44,32 +44,6 @@ public class GenealogyApp {
         reader.close();
     }
 
-    // static String findRelationship(Person p1, Person p2) {
-    //     if (p1.father != null) {
-    //         if (p1.father.equals(p2)) {
-    //             return p1.gender.equals("men") ? "Son" : "Daughter";
-    //         }
-    //         if (p1.father.father != null && p1.father.father.equals(p2)) {
-    //             return p1.gender.equals("men") ? "Grandson" : "Granddaughter";
-    //         }
-    //         if (p1.father.equals(p2.father)) {
-    //             return "Sibling";
-    //         }
-    //     }
-    //     if (p1.mother != null) {
-    //         if (p1.mother.equals(p2)) {
-    //             return p1.gender.equals("men") ? "Son" : "Daughter";
-    //         }
-    //         if (p1.mother.mother != null && p1.mother.mother.equals(p2)) {
-    //             return p1.gender.equals("men") ? "Grandson" : "Granddaughter";
-    //         }
-    //         if (p1.mother.equals(p2.mother)) {
-    //             return "Sibling";
-    //         }
-    //     }
-    //     return "No direct relationship found";
-    // }
-
     static String findRelationship1(Person p1, Person p2) {
         if (p1.father != null) {
             if (p1.father.equals(p2)) {
