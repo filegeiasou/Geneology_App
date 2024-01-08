@@ -1,0 +1,8 @@
+Steffon Baratheon, husband, Cassana Estermont
+Cassana Estermont, husband, Steffon Baratheon
+Robert Baratheon, husband, Cersei Lannister
+Cersei Lannister, husband, Robert Baratheon
+Stannis Baratheon, husband, Selyse Baratheon
+Selyse Baratheon, husband, Stannis Baratheon
+Renly Baratheon, husband, Margaery Tyrell
+Margaery Tyrell, husband, Renly Baratheon
